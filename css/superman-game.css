@@ -1,0 +1,8 @@
+body {
+    color: #fff;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    background-image: url('https://live.staticflickr.com/180/367040140_5a0af3d3fc_b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+}

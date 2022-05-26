@@ -1,0 +1,8 @@
+body {
+    color: #fff;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    background-image: url('https://i.pinimg.com/originals/13/19/67/131967d9ca778791dd29cdad35962bd3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+}

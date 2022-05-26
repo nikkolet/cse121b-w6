@@ -1,0 +1,7 @@
+body {
+    color: #fff;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    background-image: url('https://t3.ftcdn.net/jpg/03/28/04/80/360_F_328048047_Mk7gZa0mXZ0JIsl3BIy43ovF08MNN0ea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
