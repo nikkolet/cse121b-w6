@@ -1,5 +1,5 @@
 const question = document.querySelector('#question');
-const choices = Arry.from(document.querySelectorAll('.choice-text'));
+const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
@@ -17,7 +17,7 @@ let questions = [{
         choice2: 'Wayne & Alice',
         choice3: 'George & Elaine',
         choice4: 'Thomas & Martha',
-        answer: 'Thomas & Martha',
+        answer: 4,
     },
     {
         question: 'What is 2 + 2?',
@@ -113,3 +113,10 @@ choices.forEach(choice => {
         }, 1000)
     })
 })
+
+incrementScore = num => {
+    score += num
+    scoreText.innerText = score
+}
+
+startGame()
