@@ -1,8 +1,87 @@
 body {
     color: #fff;
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
-    background-image: url('https://live.staticflickr.com/180/367040140_5a0af3d3fc_b.jpg');
+    background-image: url('../images/movie-justice-league-2017-clark-kent-dc-comics-wallpaper-preview.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: lighten;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, rgb(4, 44, 139) 0%, rgb(4, 44, 139) 100%);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(4, 44, 139, 0.9);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(31deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+#hud {
+    display: flex;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#question {
+    font-size: 3rem;
+}
+
+#progressText {
+    font-size: 2rem;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(4, 44, 149);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(225, 225, 225, 0.5);
+    /* rgb(11, 223, 36); */
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(4, 44, 149);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
 }
