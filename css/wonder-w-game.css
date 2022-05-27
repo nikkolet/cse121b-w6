@@ -1,8 +1,0 @@
-body {
-    color: #fff;
-    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCnUERQLazSntVJkaX79KWVBHN6Ayr7Wy9asG55mvBu7VWsdVHbtN7er2dwyQzQ0GnOIU&usqp=CAU');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: lighten;
-}

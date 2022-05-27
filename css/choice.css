@@ -151,3 +151,98 @@ input::placeholder {
     font-size: 2rem;
     color: rgb(28, 26, 26);
 }
+
+.all {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(90deg, rgb(210, 210, 210) 0%, rgb(225, 225, 225) 100%);
+    border-radius: 4px;
+}
+
+.all:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(225, 225, 225, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.batman {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    border-radius: 4px;
+}
+
+.batman:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(61, 73, 62, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.superman {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(4, 44, 139) 0%, rgb(4, 44, 139) 100%);
+    border-radius: 4px;
+}
+
+.superman:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(4, 44, 139, 0.9);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.wonderwoman {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
+    border-radius: 4px;
+}
+
+.wonderwoman:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.flash {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(213, 27, 19) 0%, rgb(222, 37, 29) 100%);
+    border-radius: 4px;
+}
+
+.flash:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(222, 37, 29, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
