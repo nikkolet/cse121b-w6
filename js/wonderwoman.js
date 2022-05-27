@@ -12,15 +12,15 @@ let availableQuestions = []
 
 // Default quesitons
 let questions = [{
-        question: 'What were the names of Bruce Wayne\'s Parents?',
-        choice1: 'James & Elizabeth',
-        choice2: 'Wayne & Alice',
-        choice3: 'George & Elaine',
-        choice4: 'Thomas & Martha',
+        question: 'Wonder Woman made her first appearance in what comic book?',
+        choice1: 'Wonder Woman #1',
+        choice2: 'Sensation Comics #1',
+        choice3: 'Action Comics #27',
+        choice4: 'All Star Comics #8',
         answer: 4,
     },
     {
-        question: 'According to the 1960s TV show, how far is the Batcave from Gotham City?',
+        question: 'Which of Wonder Woman\'s accessories was forged from the magic girdle of Aphrodite?',
         choice1: '41 miles',
         choice2: '4 miles',
         choice3: '1 mile',
