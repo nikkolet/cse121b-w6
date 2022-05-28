@@ -12,7 +12,7 @@ let availableQuestions = []
 
 // Default quesitons
 let questions = [{
-        question: 'What is Clark Kent\'s middl name?',
+        question: 'What is Clark Kent\'s middle name?',
         choice1: 'Jacob',
         choice2: 'Joseph',
         choice3: 'Walter',
