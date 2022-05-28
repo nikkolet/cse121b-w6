@@ -92,7 +92,7 @@ let questions = [{
         answer: 4,
     },
     {
-        question: 'What is Clark Kent\'s middl name?',
+        question: 'What is Clark Kent\'s middle name?',
         choice1: 'Jacob',
         choice2: 'Joseph',
         choice3: 'Walter',
@@ -130,12 +130,52 @@ let questions = [{
         choice3: 'Supergirl',
         choice4: 'Jimmy Olson',
         answer: 3,
+    },
+    {
+        question: 'Wonder Woman made her first appearance in what comic book?',
+        choice1: 'Wonder Woman #1',
+        choice2: 'Sensation Comics #1',
+        choice3: 'Action Comics #27',
+        choice4: 'All Star Comics #8',
+        answer: 4,
+    },
+    {
+        question: 'Which of Wonder Woman\'s accessories was forged from the magic girdle of Aphrodite?',
+        choice1: 'Her magic lasso',
+        choice2: 'Her bracelets',
+        choice3: 'Her tiara',
+        choice4: 'Her Earrings',
+        answer: 1,
+    },
+    {
+        question: 'During the 1960\'s, Wonder Woman became the pupil of what Chinese martial arts master?',
+        choice1: 'Sin Tzu',
+        choice2: 'I Ching',
+        choice3: 'Gao Xingjian',
+        choice4: 'Jet Li',
+        answer: 2,
+    },
+    {
+        question: 'Which of Wonder Woman\'s accessories allows her to breathe in outer space?',
+        choice1: 'Her tiara',
+        choice2: 'Her bracelets',
+        choice3: 'Her magic lasso',
+        choice4: 'Her earrings',
+        answer: 4,
+    },
+    {
+        question: 'What animal do Amazons ride on the island?',
+        choice1: 'Cheetah',
+        choice2: 'Kangaroos',
+        choice3: 'Elephant',
+        choice4: 'Unicorns',
+        answer: 2,
     }
 
 
 ]
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 1
+const MAX_QUESTIONS = 20
 
 startGame = () => {
     questionCounter = 0
