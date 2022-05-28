@@ -20,7 +20,7 @@ let questions = [{
         answer: 2,
     },
     {
-        question: 'What is the name of hte dimensional plane where Kryptonian criminals were exiled for their crimes?',
+        question: 'What is the name of the dimensional plane where Kryptonian criminals were exiled for their crimes?',
         choice1: 'No Man\'s land',
         choice2: 'Phantom Zone',
         choice3: 'Zimbardo\'s Prison',
