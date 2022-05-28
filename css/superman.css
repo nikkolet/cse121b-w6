@@ -12,14 +12,14 @@ body {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: linear-gradient(90deg, rgb(4, 44, 139) 0%, rgb(4, 44, 139) 100%);
+    background: linear-gradient(90deg, rgb(33, 84, 203) 0%, rgb(0, 44, 139) 100%);
     font-size: 3rem;
     min-width: 80rem;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(4, 44, 139, 0.9);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(33, 84, 203, 0.9);
     transform: scale(1.02);
     transform: transform 100ms;
 }

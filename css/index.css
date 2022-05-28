@@ -145,10 +145,32 @@ input::placeholder {
 
 #saveScoreBtn {
     border: none;
+    background: linear-gradient(90deg, rgb(57, 225, 20) 0%, rgb(77, 225, 40) 100%);
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    color: #fff;
+}
+
+#saveScoreBtn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(57, 225, 20, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
 }
 
 .fa-home {
     margin-left: 1rem;
     font-size: 2rem;
-    color: rgb(28, 26, 26);
+    color: #fff;
+}
+
+.home {
+    color: #fff;
+    background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
+}
+
+.home:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(240, 221, 6, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
 }

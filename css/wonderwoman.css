@@ -139,7 +139,7 @@ input::placeholder {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: linear-gradient(90deg, rgb(244, 217, 117) 0%, rgb(203, 151, 59) 100%);
+    background: linear-gradient(90deg, rgb(255, 251, 128) 0%, rgb(240, 221, 6) 100%);
     font-size: 3rem;
     min-width: 80rem;
 }
