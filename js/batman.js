@@ -12,12 +12,12 @@ let availableQuestions = []
 
 // Default quesitons
 let questions = [{
-        question: 'What were the names of Bruce Wayne\'s Parents?',
-        choice1: 'James & Elizabeth',
-        choice2: 'Wayne & Alice',
-        choice3: 'George & Elaine',
-        choice4: 'Thomas & Martha',
-        answer: 4,
+        "question": "What were the names of Bruce Wayne\'s Parents?",
+        "choice1": "James & Elizabeth",
+        "choice2": "Wayne & Alice",
+        "choice3": "George & Elaine",
+        "choice4": "Thomas & Martha",
+        "answer": "4",
     },
     {
         question: 'According to the 1960s TV show, how far is the Batcave from Gotham City?',
